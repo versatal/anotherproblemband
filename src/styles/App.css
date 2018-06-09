@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  background-image: url('/images/rockband1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;  
+}
+
+.menu {
+  flex-shrink: 0;
+  color: gray;
+  font-size: 3.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu p {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  flex-grow: 0.1;
+  flex-shrink: 0;
+  color: rgb(181, 9, 34);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10rem;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+}
+
+.slideshow {
+  flex-grow: 0.9;
+  flex-shrink: 0;
+  width: 90%;
+  margin: 0 auto;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.bandPic {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.musicPlayer {
+  flex-shrink: 0;
+  color: white;
+  display: flex;
+  justify-content: space-evenly; 
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-position: unset;
+  }
+
+  .heading {
+    margin: 50px 0px 0px 0px;
+    font-size: 10rem    
+  }
+
+  .slideshow {
+    width: 650px;
+    margin: 0 auto;  
+  }
+}
