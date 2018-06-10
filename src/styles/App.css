@@ -1,11 +1,9 @@
 html {
   font-size: 62.5%;
-  width: 100%;
   height: 100%;
 }
 
 body {
-  width: 100%;
   height: 100%;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
@@ -24,15 +22,7 @@ button:disabled {
   cursor: default;
 }
 
-.main {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;  
-}
-
 .menu {
-  flex-shrink: 0;
   color: gray;
   font-size: 3.2rem;
   display: flex;
@@ -45,39 +35,39 @@ button:disabled {
 }
 
 .heading {
-  flex-grow: 0.1;
-  flex-shrink: 0;
   color: rgb(181, 9, 34);
   text-align: center;
   text-transform: uppercase;
-  font-size: 10rem;
+  font-size: 5rem;
   margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 
 }
 
 .slideshow {
-  flex-grow: 0.9;
-  flex-shrink: 0;
   width: 90%;
-  margin: 0 auto;  
+  margin: 50px auto;  
   display: flex;
   flex-direction: column;
   justify-content: center;  
 }
 
 .bandPic {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .musicPlayer {
-  flex-shrink: 0;
-  color: white;
-  display: flex;
-  justify-content: space-evenly; 
+  position: absolute;
+  left: 10%;
+  bottom: 0;
   width: 80%;
   margin: 0 auto;
+}
+
+.audio_player .audio_time_progress {
+  margin-right: 10px;
+  font-size: 12px; 
 }
 
 @media only screen and (min-width: 1000px) {
@@ -87,11 +77,19 @@ button:disabled {
 
   .heading {
     margin: 50px 0px 0px 0px;
-    font-size: 10rem    
+    font-size: 15rem    
   }
 
   .slideshow {
     width: 650px;
-    margin: 0 auto;  
+    margin: 100px auto;  
+  }
+  
+  .bandPic {
+    width: 500px;
+  }    
+  .audio_player .audio_time_progress {
+    margin-right: 20px;
+    font-size: 23px; 
   }
 }
