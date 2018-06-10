@@ -88,6 +88,7 @@ button:disabled {
   }
 
   .musicPlayer {
+    left: 10%;
     width: 80%;
     margin: 0 auto;
   }
