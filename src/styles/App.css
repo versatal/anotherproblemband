@@ -59,14 +59,12 @@ button:disabled {
 
 .musicPlayer {
   position: absolute;
-  left: 10%;
   bottom: 0;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .audio_player .audio_time_progress {
-  margin-right: 10px;
   font-size: 12px; 
 }
 
@@ -87,9 +85,14 @@ button:disabled {
   
   .bandPic {
     width: 500px;
-  }    
+  }
+
+  .musicPlayer {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .audio_player .audio_time_progress {
-    margin-right: 20px;
     font-size: 23px; 
   }
 }
