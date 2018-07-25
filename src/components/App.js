@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import Menu from './Menu';
 import Heading from './Heading';
 import MusicPlayer from './MusicPlayer';
 import Slideshow from './Slideshow';
@@ -10,7 +9,6 @@ class App extends Component {
     return (
       <div className="main">
         <div className= "content">
-          <Menu />
           <Heading />
           <Slideshow />
         </div>
