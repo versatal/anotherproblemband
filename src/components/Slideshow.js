@@ -14,23 +14,26 @@ class Slideshow extends Component {
     };
     return (
       <Slider className="slideshow" {...settings}>
-        <div>
-          <img src="/images/anotherproblem.jpg" alt="the band" className="bandPic"/>
-          </div>
-        <div>
-          <img src="/images/oxandjen.jpg" alt="ox and jen" className="bandPic"/>
+        <div className="imgContainer">
+          <img src="/images/anotherproblem.jpg" alt="the band" className="bandPic3"/>
         </div>
-        <div>
-          <img src="/images/oxinaction1.jpg" alt="the band" className="bandPic"/>
+        <div className="imgContainer">
+          <img src="/images/oxandjen.jpg" alt="ox and jen" className="bandPic2"/>
         </div>
-        <div>
-          <img src="/images/oxinaction2.jpg" alt="the band" className="bandPic"/>
+        <div className="imgContainer">
+          <img src="/images/oxInAction3.jpg" alt="Ox in action" className="bandPic4"/>
         </div>
-        <div>
-          <img src="/images/anotherproblem.jpg" alt="the band" className="bandPic"/>
+        <div className="imgContainer">
+          <img src="/images/threeGuitars.jpg" alt="Three guitarists" className="bandPic4"/>
         </div>
-        <div>
-          <img src="/images/anotherproblem.jpg" alt="the band" className="bandPic"/>
+        <div className="imgContainer">
+          <img src="/images/amy.jpg" alt="amy" className="bandPic4"/>
+        </div>
+        <div className="imgContainer">
+          <img src="/images/trent.jpg" alt="trent" className="bandPic"/>
+        </div>
+        <div className="imgContainer">
+          <img src="/images/john.jpg" alt="john" className="bandPic"/>
         </div>
       </Slider>
     );

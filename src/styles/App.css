@@ -45,11 +45,11 @@ button:disabled {
 }
 
 .slideshow {
-  width: 90%;
+  width: 100%;
   margin: 50px auto;  
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .bandPic {
@@ -79,12 +79,28 @@ button:disabled {
   }
 
   .slideshow {
-    width: 650px;
+    width: 750px;
     margin: 100px auto;  
   }
   
   .bandPic {
-    width: 500px;
+    margin: 0 auto;
+  }
+
+  .bandPic2 {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .bandPic4 {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .bandPic3 {
+    width: 600px;
+    margin: 0 auto;
   }
 
   .musicPlayer {
