@@ -8,10 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-        <div className= "content">
-          <Heading />
-          <Slideshow />
-        </div>
+        <Heading />
+        <Slideshow />
         <MusicPlayer />
       </div>
     );
