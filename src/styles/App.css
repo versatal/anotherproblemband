@@ -25,8 +25,6 @@ button:disabled {
 .heading {
   color: rgb(181, 9, 34);
   text-align: center;
-  margin: 0;
-  padding: 0;
   font-family: 'Lobster', cursive; 
 }
 
@@ -47,24 +45,25 @@ button:disabled {
 .bandPic {
   width: 50%;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 .bandPic2 {
   width: 90%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .bandPic4 {
   width: 90%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .bandPic3 {
   width: 90%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .musicPlayer {
